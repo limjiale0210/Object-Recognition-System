@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: Object-Recognition-System
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python Object Recognition System.py
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.10.12
